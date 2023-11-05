@@ -1,0 +1,27 @@
+.logout-btn {
+  background-color: #2196f3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.logout-btn:focus {
+  background-color: #2196f3;
+}
+
+.logout-btn:hover {
+  background-color: #42a5f5;
+}
+
+.login-btn {
+  background-color: #2196f3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.login-btn:focus {
+  background-color: #2196f3;
+}
+
+.login-btn:hover {
+  background-color: #42a5f5;
+}

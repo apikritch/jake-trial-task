@@ -1,0 +1,128 @@
+.login-form {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.login-form .input-field {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+.login-form .input-field label {
+  left: 0rem;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: #2196f3;
+  margin-bottom: 0.5rem;
+}
+
+.login-btn:focus {
+  background-color: #2196f3;
+}
+
+.login-btn:hover {
+  background-color: #42a5f5;
+}
+
+.register-link {
+  margin-left: 0.25rem;
+  font-weight: 500;
+}
+
+.forgot-btn {
+  cursor: pointer;
+  user-select: none;
+}
+
+.phone-input input {
+  text-align: center;
+}
+
+.phone-input label {
+  width: unset !important;
+}
+
+.phone-input .validate:focus {
+  border-bottom: 1px solid #2196f3 !important;
+  box-shadow: 0 1px 0 0 #2196f3 !important;
+}
+
+.verify-code {
+  font-weight: 300;
+  padding: 1.25rem 3rem;
+}
+
+.swal2-container {
+  padding: 1rem;
+}
+
+.swal2-modal {
+  padding: 1rem 0.5rem 2.25rem 0.5rem !important;
+}
+
+@media (min-width: 375px) {
+  .swal2-container {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .swal2-container {
+    padding: 0.625em;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-form {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .login-form .input-field {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .login-btn {
+    margin-bottom: 1rem;
+  }
+
+  .swal2-modal {
+    padding: 2rem 2rem 3rem 2rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .login-form {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .login-form .input-field {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .login-form {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .login-form .input-field {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .login-btn {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .swal2-modal {
+    padding: 3rem 3rem 3.75rem 3rem !important;
+  }
+}

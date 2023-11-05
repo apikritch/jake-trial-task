@@ -1,0 +1,223 @@
+.signup-form {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.signup-form .input-field {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+.signup-form .input-field label {
+  left: 0rem;
+}
+
+.signup-btn {
+  width: 100%;
+  background-color: #2196f3;
+  margin-bottom: 0.5rem;
+}
+
+.signup-btn:focus {
+  background-color: #2196f3;
+}
+
+.signup-btn:hover {
+  background-color: #42a5f5;
+}
+
+.register-link {
+  margin-left: 0.25rem;
+  font-weight: 500;
+}
+
+.forgot-btn {
+  cursor: pointer;
+  user-select: none;
+}
+
+.email-verification {
+  font-weight: 300;
+  padding: 1.25rem 1.2rem;
+}
+
+.email-icon {
+  border: none;
+  height: 2em;
+}
+
+.access-time-icon {
+  border: none;
+  height: 2em;
+}
+
+.verification-success {
+  font-weight: 300;
+  padding: 1.25rem 3rem;
+}
+
+.verified-user-icon {
+  border: none;
+  height: 2em;
+}
+
+.verify-user {
+  font-weight: 300;
+  padding: 1.25rem 2rem;
+}
+
+.phone-input input {
+  text-align: center;
+}
+
+.phone-input label {
+  width: unset !important;
+}
+
+.phone-input .validate:focus {
+  border-bottom: 1px solid #2196f3 !important;
+  box-shadow: 0 1px 0 0 #2196f3 !important;
+}
+
+.verify-phone {
+  font-weight: 300;
+  padding: 1.25rem 3rem;
+}
+
+.verify-code {
+  font-weight: 300;
+  padding: 1.25rem 3rem;
+}
+
+.swal2-container {
+  padding: 1rem;
+}
+
+.swal2-modal {
+  padding: 1rem 0.5rem 2.25rem 0.5rem !important;
+}
+
+.swal2-html-container {
+  margin: 0.25em 1.25em 0.3em !important;
+}
+
+.swal2-icon {
+  margin: 1.75em auto 0.6em;
+}
+
+.swal2-loading {
+  margin: 0.75em auto 0;
+}
+
+.swal2-title {
+  padding: 0.8em 1em 0.6em;
+}
+
+@media (min-width: 375px) {
+  .swal2-container {
+    padding: 1.5rem;
+  }
+
+  .email-verification {
+    font-weight: 300;
+    padding: 1.25rem 2rem;
+  }
+
+  .verify-user {
+    font-weight: 300;
+    padding: 1.25rem 3rem;
+  }
+}
+@media (min-width: 640px) {
+  .swal2-container {
+    padding: 0.625em;
+  }
+
+  .email-verification {
+    font-weight: 300;
+    padding: 1.25rem 3rem;
+  }
+
+  .swal2-html-container {
+    margin: 0.5em 1.75em 0.3em !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .signup-form {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .signup-form .input-field {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .signup-btn {
+    margin-bottom: 1rem;
+  }
+
+  .swal2-modal {
+    padding: 2rem 2rem 3rem 2rem !important;
+  }
+
+  .swal2-html-container {
+    margin: 1em 1.6em 0.3em !important;
+  }
+
+  .swal2-icon {
+    margin: 1.75em auto 0.6em;
+  }
+
+  .swal2-loading {
+    margin: 1.25em auto 0;
+  }
+
+  .swal2-title {
+    padding: 0.8em 1em 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .signup-form {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .signup-form .input-field {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .swal2-icon {
+    margin: 1.5em auto 0.6em;
+  }
+}
+
+@media (min-width: 1536px) {
+  .signup-form {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .signup-form .input-field {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .signup-btn {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .swal2-modal {
+    padding: 3rem 3rem 3.75rem 3rem !important;
+  }
+
+  .swal2-icon {
+    margin: 0.75em auto 0.6em;
+  }
+}
